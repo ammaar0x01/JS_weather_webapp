@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: black;
+  transition: 400ms ease; 
+  /* font-family: serif; */
+  /* font-family: "Turret Road", serif; */
+
+  height: 100vh;
+  background-image: url(../images/image\ \(3\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.637);
+  text-decoration: underline;
+  font-weight: 300;
+  transition: ease 400ms;
+}
+a:hover {
+    color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ========================================= */
+
+h1 {
+  font-weight: 300;
+  font-size: 40px;
+  padding: 10px;
+  font-family: "Turret Road", serif;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 25px;
+  padding: 10px;
+  font-family: "Turret Road", serif;
+}
+/* ========================================= */
+
+main {
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(240, 222, 222, 0.137);
+  min-height: 80vh;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 20px !important;
+}
+/* ========================================= */
+
+.row {
+  margin: 20px 10px;
+}
+
+.block {
+  /* background-color: black;
+  padding: 10px;
+  margin: 10px; */
+  border-radius: 20px;
+}
+
+#block1 {
+  /* border:1px solid white;  */
+  background-color: transparent;
+}
+
+#block2 {
+  /* border: 1px solid white; */
+  background-color: rgba(0, 0, 0, 0.199);
+}
+/* --------------------------------- */
+
+.card {
+  /* border: 1px solid white; */
+  background-color: rgba(191, 199, 191, 0.37);
+  color: white;
+  border-radius: 20px;
+  transition: ease 400ms;
+}
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.37);
+  color: white;
+}
+
+.card .card-title {
+  padding: 10px 0;
+}
+
+.card .card-text {
+  margin: 0px;
+}
+.card h5 {
+  font-size: 19px;
+}
+/* --------------------------------- */
+
+footer {
+  padding: 10px 10px 20px 10px;
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+footer a {
+  margin: 10px;
+  color: rgba(255, 255, 255, 0.637);
+  text-decoration: underline;
+  font-weight: 300;
+  padding-left: 20px;
+}
+footer a:hover {
+  color: white;
+}
+/* --------------------------------- */
