@@ -5,5 +5,10 @@
 - Started:              18.12.24
 - Updated:              25.12.24
 - Status:               COMPLETED
-- URL:
+- Website-URL:          https://ammaar0x01-js-weather.netlify.app/
+---
+
+### Tools used
+- https://openweathermap.org/forecast5
+- https://pexels.com/
 ---
