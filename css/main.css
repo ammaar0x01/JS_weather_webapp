@@ -9,10 +9,6 @@
 body {
   color: white;
   background-color: black;
-  transition: 400ms ease; 
-  /* font-family: serif; */
-  /* font-family: "Turret Road", serif; */
-
   height: 100vh;
   background-image: url(../images/image\ \(3\).webp);
   background-position: center;
@@ -71,25 +67,19 @@ main {
 }
 
 .block {
-  /* background-color: black;
-  padding: 10px;
-  margin: 10px; */
   border-radius: 20px;
 }
 
 #block1 {
-  /* border:1px solid white;  */
   background-color: transparent;
 }
 
 #block2 {
-  /* border: 1px solid white; */
   background-color: rgba(0, 0, 0, 0.199);
 }
 /* --------------------------------- */
 
 .card {
-  /* border: 1px solid white; */
   background-color: rgba(191, 199, 191, 0.37);
   color: white;
   border-radius: 20px;

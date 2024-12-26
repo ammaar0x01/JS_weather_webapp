@@ -52,7 +52,7 @@ class Weather{
         }
         console.log(this.#region)
 
-        // Making request
+        // Sending a request
         let baseURL = `https://api.openweathermap.org/data/2.5/forecast?q=${this.#region}&units=metric&appid=${this.#key.slice(0, 32)}`
         let response = await fetch(baseURL)
         if (response.status == 200){

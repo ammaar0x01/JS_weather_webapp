@@ -3,7 +3,7 @@ Used to change the background of a webpage
 */
 
 const bgImages = [
-    "../images/image (1).webp", 
+    // "../images/image (1).webp", 
     "../images/image (2).webp", 
     "../images/image (3).webp", 
     "../images/image (4).webp", 
@@ -17,7 +17,7 @@ const bgImages = [
  */
 function updateBg(){
     let randomInt = Math.round(Math.random() * bgImages.length)
-    if (randomInt > bgImages.length){
+    if (randomInt == bgImages.length){
         randomInt -= 1
     }
 
