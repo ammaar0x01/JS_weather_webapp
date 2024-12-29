@@ -91,7 +91,7 @@ class Weather{
         cardToday.querySelector(".min").innerHTML = "Minimum: " +  dataToday["main"]["temp_min"] + " °C"
         cardToday.querySelector(".feels-like").innerHTML = "Feels like: " + dataToday["main"]["feels_like"] + " °C"
         cardToday.querySelector(".humidity").innerHTML = "Humidity: " + dataToday["main"]["humidity"] + " %"
-        cardToday.querySelector(".wind-speed").innerHTML = "Wind-speed: " +  dataToday["wind"]["speed"] + " km/h"
+        cardToday.querySelector(".wind-speed").innerHTML = "Wind-speed: " +  dataToday["wind"]["speed"] + " m/s"
         cardToday.querySelector(".pressure").innerHTML = "Pressure: " + dataToday["main"]["pressure"] + " mb"
         // ~~~~~~~~~~~~~~~~~~~~
     }
